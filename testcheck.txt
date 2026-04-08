@@ -1,0 +1,81 @@
+2.
+consloe.log(fruits[1]);
+
+banana는 0, apple은 1, orange는 3
+
+4. 
+아무것도 안 나옴
+number : 9 
+
+while문에서는 조건에 맞지 않아서 아무것도 출력되지 않는 반면, do-while문은 일단 {} 안의 코드를 한 번은 실행한 뒤 조건을 검사함 
+
+5.
+innertext = count
+
+display.innerText = count;는 더해진 최신 숫자를 HTML 요소 안에 글자로 집어넣어 화면에 보여줌
+
+6.
+const lion = () => {
+    console.log("자바스크립트 마스터를 해보자!");
+}
+lion()
+
+function을 삭제하고 괄호와 중괄호 사이에 화살표를 넣는다
+
+7.
+const isLogin = true;
+const answer = isLogin ? "환영합니다!" : "접근 권한이 없습니다.";
+console.log(answer)
+
+삼항연산자
+-조건문: 참인지 거짓인지 판별
+-물음표
+-참일 때의 값: 환영합니다!
+-콜론: 아니면이라는 뜩의 구분선
+-거짓일 때의 값: 접근 권한이 없습니다.
+
+
+8.
+let userInput;
+do{
+    userInput=prompt("무엇을 말하고 싶나요?");
+} while(userInput!=="끝");
+
+9.
+let userInput=prompt("숫자를 입력하세요:");
+let num=Number(userInput);
+let sum=0;
+let i;
+
+while(i<=num){
+    sum+=i;
+    i++;
+}
+alert=("1부터"+userInput+"까지의 합은"+sum+"입니다.");
+
+합계를 저장할 sum을 0으로 비워두고 시작해야 함
+
+10.
+5,["old",10,233,true,"new"],"old",[10,233,true]
+
+push()는 요소를 추가한 후의 배열의 새로운 길이를 반환하기 때문에, 처음엔 4개였다가 하나를 더했으니 5가 된다.
+
+11.
+appendChild
+
+12.
+person.hobby="drawing";
+
+13.
+let count=1;
+
+function change(){
+    count++;
+    const nameElement=document.getElementById("name");
+    nameElement.innerText="likelion_"+count;
+}
+
+count는 1부터 시작. 그리고 버튼을 누를 떄마다 숫자를 1씩 올려야하니까 count++.
+
+14.
+getElementById,addEventListener,click,getElementById,oneclick
